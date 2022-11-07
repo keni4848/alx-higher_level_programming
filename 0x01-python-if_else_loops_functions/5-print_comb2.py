@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-for nums in range(0, 90):
-    if nums == 01 or nums == 09
-    else:
-    print("{:02d}".format(nums), end=", ")
+for num in range(0, 100):
+    if num != 99:
+    print("{:02d}, ".format(num), end='')
+        else:
+    print("{:02d}".format(num))
